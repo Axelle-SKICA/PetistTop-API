@@ -1,9 +1,19 @@
 # PetsitTop :paw_prints:
 
-Dépôt GitHub FRONT : https://github.com/O-clock-Maya/projet-02-pet-sitter-friendly-front  
-Dépôt GitHub BACK : https://github.com/O-clock-Maya/projet-02-pet-sitter-friendly-back
+De Septembre 2022 à mars 2023, j'ai suivi la formation [_Développeur Web Fullstack JavaScript_](https://oclock.io/formations/developpeur-web-fullstack-javascript) de l'école O'clock.  
 
- :sparkles: Voici [notre site PetsitTop](https://projet-02-pet-sitter-front-production.up.railway.app/) ! :sparkles:
+Après presque 800 heures de formation (cours en téléprésentiel, exercices d'application des notions vues en cours, journées de pair-programming, 1 mois de spécialisation en _React.js_ pour certains ou _Data & API_ pour d'autres...), nous nous sommes attelés, en équipe, à notre projet de fin de formation :
+
+ :rocket: __La réalisation d'une application web,__  
+ :rocket: __de sa conception au déploiement d'un MVP,__  
+ :rocket: __en méthodologie Agile,__  
+ :rocket: __pendant 1 mois, en équipe.__  
+
+Pour Inès Daï, Simon Honoré, Catherine Keller et moi-même, __voici notre MVP, pour lequel j'ai participé au développement de l'API__ (que vous retrouvez dans ce dépôt) :  
+ :sparkles: Notre site [PetsitTop](https://projet-02-pet-sitter-front-production.up.railway.app/) ! :sparkles:
+
+Documentation de l'API :  
+https://petsitterfriendly-production.up.railway.app/api-docs/
 
 ## Lancement
 
@@ -21,7 +31,7 @@ Lancement du serveur :
 npm run dev
 ```
 
-## Présentation
+## Présentation du site PetsitTop
 
 PetsitTop est une plateforme d'entraide et de mise en relation entre particuliers pour du "petsitting" : la garde d'animaux domestiques.  
 
@@ -30,7 +40,7 @@ PetsitTop est une plateforme d'entraide et de mise en relation entre particulier
 - "Petowner" : propriétaire d'animaux ayant besoin de les faire garder
 - "Petsitter" : personne acceptant de garder des animaux domestiques
 
-## Fonctionnalités
+## Fonctionnalités du site
 
 Tout __visiteur__ (non connecté) du site peut rechercher des profils de Petsitters disponibles, en filtrant par département et par type d'animal à faire garder.  
 
@@ -42,7 +52,7 @@ Une fois connecté, un __utilisateur__ ("user") peut :
 - accéder à l'ensemble des annonces postées par des Petowners pour leur recherche de Petsitter (filtre possible par département)
 - un __Petowner__ connecté va pouvoir aussi :
   
-  - ajouter/modifier/supprimer ses animaux ("pets") => à venir
+  - ajouter/modifier/supprimer ses animaux ("pets") _=> à venir_
   - ajouter/modifier/supprimer des annonces de recherche de petsitter ("ads")
 
 - un __Petsitter__ connecté va pouvoir aussi :
@@ -60,17 +70,6 @@ Une fois connecté, un __utilisateur__ ("user") peut :
 ![Whimsical](https://img.shields.io/badge/whimsical-8313DD?style=for-the-badge)
 ![MOCODO](https://img.shields.io/badge/mocodo-808080?style=for-the-badge)
 
-### Front-end
-
-![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/react-%232d415c.svg?style=for-the-badge&logo=react&logoColor=%2304D8F9)
-![Redux](https://img.shields.io/badge/redux-%23764ABC.svg?style=for-the-badge&logo=redux&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-636cff?style=for-the-badge&logo=vite&logoColor=white)
-![SASS](https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![React-icons](https://img.shields.io/badge/react--icons-CBCDD4?style=for-the-badge&logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2MDBweCINCgkgaGVpZ2h0PSI2MDBweCIgdmlld0JveD0iMCAwIDYwMCA2MDAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYwMCA2MDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGcgaWQ9IkxheWVyXzIiPg0KCTxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0U5MUU2MyIgc3Ryb2tlLXdpZHRoPSIyNCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMzcxLjk4NywyMjcuNjQxDQoJCWM0Ny42MjgsNDcuNjI4LDg1LjAzOSw5OC43MDgsMTA2LjkxNCwxNDMuNTUyYzI2LjM1OCw1NC4wMzMsMzAuMDk2LDk5LjcyMiwxMS4xMDMsMTE4LjcxNA0KCQljLTE5Ljc5MywxOS43OTMtNjguMjY3LDE1Ljg4NC0xMjUuNzMxLTEyLjk3OWMtNDMuNDQ1LTIxLjgyMS05Mi4wMzEtNTkuMTE5LTEzNy4yNDItMTA0LjMzMQ0KCQljLTQ2LjM1NC00Ni4zNTQtODQuOTUtOTUuNTQ1LTEwNi42NjctMTM5LjgxNmMtMjcuNDgtNTYuMDIzLTMwLjA1Ny0xMDMuNzQzLTEwLjY0My0xMjMuMTU3DQoJCWMxOC44MzgtMTguODM5LDYzLjI0OC0xNi4wNTYsMTE2LjY5NCw5Ljc1N0MyNzEuNTc0LDE0MS4xOTMsMzIzLjg5NSwxNzkuNTQ4LDM3MS45ODcsMjI3LjY0MXoiLz4NCgk8cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNFOTFFNjMiIHN0cm9rZS13aWR0aD0iMjQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZD0iTTI3Mi45MzEsMjAxLjEyNQ0KCQljNjUuMDUyLTE3LjQ2NSwxMjcuOTg5LTI0LjM1NCwxNzcuNzY3LTIwLjkwMmM1OS45NzQsNC4xNiwxMDEuNDIsMjMuNzQ3LDEwOC4zODUsNDkuNjg4DQoJCWM3LjI1OSwyNy4wMzMtMjAuMzQ1LDY3LjA3My03NC4wNTQsMTAyLjQzNGMtNDAuNjA4LDI2LjczMy05Ny4xODksNTAuMTg4LTE1OC45NDEsNjYuNzY5DQoJCWMtNjMuMzEyLDE2Ljk5OC0xMjUuMjA3LDI1Ljg1OC0xNzQuNDA4LDIyLjU1M2MtNjIuMjYtNC4xODEtMTA0Ljg4NC0yNS43ODktMTEyLjAwNC01Mi4zMDYNCgkJYy02LjkwNy0yNS43MzEsMTcuNjg4LTYyLjgxMSw2Ni43NS05Ni4yMTRDMTQ3Ljg3OSwyNDQuOTIzLDIwNy4yNDMsMjE4Ljc2MSwyNzIuOTMxLDIwMS4xMjV6Ii8+DQoJPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRTkxRTYzIiBzdHJva2Utd2lkdGg9IjI0IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGQ9Ik0yMDAuNDY5LDI3My43MDcNCgkJYzE3LjM1Ny02NS4wODEsNDIuODItMTIzLjA1LDcwLjY3MS0xNjQuNDVjMzMuNTU2LTQ5Ljg4Miw3MS4yMjUtNzYuMDA4LDk3LjE3OC02OS4wODZjMjcuMDQ1LDcuMjEyLDQ3Ljk0OSw1MS4xMjMsNTEuNzYsMTE1LjMxNQ0KCQljMi44ODMsNDguNTMzLTUuMDU1LDEwOS4yNjYtMjEuNTMxLDE3MS4wNDZjLTE2Ljg5Miw2My4zNDEtNDAuMTI2LDEyMS4zODktNjcuNTYyLDE2Mi4zNjUNCgkJYy0zNC43MTYsNTEuODUyLTc0LjcyMyw3Ny45ODgtMTAxLjI1Miw3MC45MTNjLTI1Ljc0My02Ljg2NS00NS41ODQtNDYuNjkyLTUwLjAyMS0xMDUuODgxDQoJCUMxNzUuOTYzLDQwMy45MiwxODIuOTQ0LDMzOS40MjQsMjAwLjQ2OSwyNzMuNzA3eiIvPg0KPC9nPg0KPGcgaWQ9IkxheWVyXzMiPg0KCTxwYXRoIGZpbGw9IiNFOTFFNjMiIGQ9Ik0zMDAsMzQ5LjM2OWMtMS4wMTksMC0xLjg4MS0wLjM1My0yLjU4Ni0xLjA1OGwtMzYuNjc5LTM1LjM4NmMtMC4zOTItMC4zMTMtMC45MzEtMC44MjItMS42MTctMS41MjgNCgkJYy0wLjY4Ni0wLjcwNS0xLjc3My0xLjk4OC0zLjI2Mi0zLjg1MWMtMS40ODktMS44Ni0yLjgyMi0zLjc3MS0zLjk5Ny01Ljczcy0yLjIyNC00LjMzLTMuMTQ1LTcuMTEyDQoJCWMtMC45Mi0yLjc4Mi0xLjM4MS01LjQ4Ni0xLjM4MS04LjExMWMwLTguNjIxLDIuNDg4LTE1LjM2MSw3LjQ2NS0yMC4yMjFjNC45NzctNC44NTksMTEuODU0LTcuMjg5LDIwLjYzMS03LjI4OQ0KCQljMi40MywwLDQuOTA5LDAuNDIxLDcuNDM2LDEuMjY0YzIuNTI3LDAuODQzLDQuODc5LDEuOTc5LDcuMDU0LDMuNDFjMi4xNzQsMS40Myw0LjA0NiwyLjc3Miw1LjYxMyw0LjAyNnMzLjA1NywyLjU4Niw0LjQ2NywzLjk5Nw0KCQljMS40MTEtMS40MTEsMi44OTktMi43NDMsNC40NjctMy45OTdjMS41NjgtMS4yNTQsMy40MzgtMi41OTYsNS42MTQtNC4wMjZjMi4xNzUtMS40MzEsNC41MjUtMi41NjcsNy4wNTQtMy40MQ0KCQljMi41MjctMC44NDIsNS4wMDYtMS4yNjQsNy40MzUtMS4yNjRjOC43NzgsMCwxNS42NTUsMi40MywyMC42MzIsNy4yODljNC45NzgsNC44NTksNy40NjYsMTEuNiw3LjQ2NiwyMC4yMjENCgkJYzAsOC42Ni00LjQ4NywxNy40NzctMTMuNDYxLDI2LjQ1MWwtMzYuNjE5LDM1LjI2OEMzMDEuODgxLDM0OS4wMTcsMzAxLjAxOSwzNDkuMzY5LDMwMCwzNDkuMzY5eiIvPg0KPC9nPg0KPC9zdmc+DQo=)
-![Joi](https://img.shields.io/badge/joi-0281fe?style=for-the-badge)
-![Json Web tokens](https://img.shields.io/badge/JWT-fb005b?style=for-the-badge&logo=jsonwebtokens&logoColor=ffffff)
-
 ### Back-end
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
@@ -83,19 +82,84 @@ Une fois connecté, un __utilisateur__ ("user") peut :
 ![Swagger](https://img.shields.io/badge/swagger-84ea2c?style=for-the-badge&logo=swagger&logoColor=000000)
 ![Insomnia](https://img.shields.io/badge/insomnia-%234000BF.svg?style=for-the-badge&logo=insomnia&logoColor=white)
 
-## L'équipe
+### Front-end
 
-Nous sommes 4 jeunes développeurs web fullstack ayant suivi la formation [_Développeur Web Fullstack JavaScript_](https://oclock.io/formations/developpeur-web-fullstack-javascript) de l'école O'clock.  
+![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/react-%232d415c.svg?style=for-the-badge&logo=react&logoColor=%2304D8F9)
+![Redux](https://img.shields.io/badge/redux-%23764ABC.svg?style=for-the-badge&logo=redux&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-636cff?style=for-the-badge&logo=vite&logoColor=white)
+![SASS](https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![React-icons](https://img.shields.io/badge/react--icons-CBCDD4?style=for-the-badge&logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2MDBweCINCgkgaGVpZ2h0PSI2MDBweCIgdmlld0JveD0iMCAwIDYwMCA2MDAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYwMCA2MDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGcgaWQ9IkxheWVyXzIiPg0KCTxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0U5MUU2MyIgc3Ryb2tlLXdpZHRoPSIyNCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMzcxLjk4NywyMjcuNjQxDQoJCWM0Ny42MjgsNDcuNjI4LDg1LjAzOSw5OC43MDgsMTA2LjkxNCwxNDMuNTUyYzI2LjM1OCw1NC4wMzMsMzAuMDk2LDk5LjcyMiwxMS4xMDMsMTE4LjcxNA0KCQljLTE5Ljc5MywxOS43OTMtNjguMjY3LDE1Ljg4NC0xMjUuNzMxLTEyLjk3OWMtNDMuNDQ1LTIxLjgyMS05Mi4wMzEtNTkuMTE5LTEzNy4yNDItMTA0LjMzMQ0KCQljLTQ2LjM1NC00Ni4zNTQtODQuOTUtOTUuNTQ1LTEwNi42NjctMTM5LjgxNmMtMjcuNDgtNTYuMDIzLTMwLjA1Ny0xMDMuNzQzLTEwLjY0My0xMjMuMTU3DQoJCWMxOC44MzgtMTguODM5LDYzLjI0OC0xNi4wNTYsMTE2LjY5NCw5Ljc1N0MyNzEuNTc0LDE0MS4xOTMsMzIzLjg5NSwxNzkuNTQ4LDM3MS45ODcsMjI3LjY0MXoiLz4NCgk8cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNFOTFFNjMiIHN0cm9rZS13aWR0aD0iMjQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZD0iTTI3Mi45MzEsMjAxLjEyNQ0KCQljNjUuMDUyLTE3LjQ2NSwxMjcuOTg5LTI0LjM1NCwxNzcuNzY3LTIwLjkwMmM1OS45NzQsNC4xNiwxMDEuNDIsMjMuNzQ3LDEwOC4zODUsNDkuNjg4DQoJCWM3LjI1OSwyNy4wMzMtMjAuMzQ1LDY3LjA3My03NC4wNTQsMTAyLjQzNGMtNDAuNjA4LDI2LjczMy05Ny4xODksNTAuMTg4LTE1OC45NDEsNjYuNzY5DQoJCWMtNjMuMzEyLDE2Ljk5OC0xMjUuMjA3LDI1Ljg1OC0xNzQuNDA4LDIyLjU1M2MtNjIuMjYtNC4xODEtMTA0Ljg4NC0yNS43ODktMTEyLjAwNC01Mi4zMDYNCgkJYy02LjkwNy0yNS43MzEsMTcuNjg4LTYyLjgxMSw2Ni43NS05Ni4yMTRDMTQ3Ljg3OSwyNDQuOTIzLDIwNy4yNDMsMjE4Ljc2MSwyNzIuOTMxLDIwMS4xMjV6Ii8+DQoJPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRTkxRTYzIiBzdHJva2Utd2lkdGg9IjI0IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGQ9Ik0yMDAuNDY5LDI3My43MDcNCgkJYzE3LjM1Ny02NS4wODEsNDIuODItMTIzLjA1LDcwLjY3MS0xNjQuNDVjMzMuNTU2LTQ5Ljg4Miw3MS4yMjUtNzYuMDA4LDk3LjE3OC02OS4wODZjMjcuMDQ1LDcuMjEyLDQ3Ljk0OSw1MS4xMjMsNTEuNzYsMTE1LjMxNQ0KCQljMi44ODMsNDguNTMzLTUuMDU1LDEwOS4yNjYtMjEuNTMxLDE3MS4wNDZjLTE2Ljg5Miw2My4zNDEtNDAuMTI2LDEyMS4zODktNjcuNTYyLDE2Mi4zNjUNCgkJYy0zNC43MTYsNTEuODUyLTc0LjcyMyw3Ny45ODgtMTAxLjI1Miw3MC45MTNjLTI1Ljc0My02Ljg2NS00NS41ODQtNDYuNjkyLTUwLjAyMS0xMDUuODgxDQoJCUMxNzUuOTYzLDQwMy45MiwxODIuOTQ0LDMzOS40MjQsMjAwLjQ2OSwyNzMuNzA3eiIvPg0KPC9nPg0KPGcgaWQ9IkxheWVyXzMiPg0KCTxwYXRoIGZpbGw9IiNFOTFFNjMiIGQ9Ik0zMDAsMzQ5LjM2OWMtMS4wMTksMC0xLjg4MS0wLjM1My0yLjU4Ni0xLjA1OGwtMzYuNjc5LTM1LjM4NmMtMC4zOTItMC4zMTMtMC45MzEtMC44MjItMS42MTctMS41MjgNCgkJYy0wLjY4Ni0wLjcwNS0xLjc3My0xLjk4OC0zLjI2Mi0zLjg1MWMtMS40ODktMS44Ni0yLjgyMi0zLjc3MS0zLjk5Ny01Ljczcy0yLjIyNC00LjMzLTMuMTQ1LTcuMTEyDQoJCWMtMC45Mi0yLjc4Mi0xLjM4MS01LjQ4Ni0xLjM4MS04LjExMWMwLTguNjIxLDIuNDg4LTE1LjM2MSw3LjQ2NS0yMC4yMjFjNC45NzctNC44NTksMTEuODU0LTcuMjg5LDIwLjYzMS03LjI4OQ0KCQljMi40MywwLDQuOTA5LDAuNDIxLDcuNDM2LDEuMjY0YzIuNTI3LDAuODQzLDQuODc5LDEuOTc5LDcuMDU0LDMuNDFjMi4xNzQsMS40Myw0LjA0NiwyLjc3Miw1LjYxMyw0LjAyNnMzLjA1NywyLjU4Niw0LjQ2NywzLjk5Nw0KCQljMS40MTEtMS40MTEsMi44OTktMi43NDMsNC40NjctMy45OTdjMS41NjgtMS4yNTQsMy40MzgtMi41OTYsNS42MTQtNC4wMjZjMi4xNzUtMS40MzEsNC41MjUtMi41NjcsNy4wNTQtMy40MQ0KCQljMi41MjctMC44NDIsNS4wMDYtMS4yNjQsNy40MzUtMS4yNjRjOC43NzgsMCwxNS42NTUsMi40MywyMC42MzIsNy4yODljNC45NzgsNC44NTksNy40NjYsMTEuNiw3LjQ2NiwyMC4yMjENCgkJYzAsOC42Ni00LjQ4NywxNy40NzctMTMuNDYxLDI2LjQ1MWwtMzYuNjE5LDM1LjI2OEMzMDEuODgxLDM0OS4wMTcsMzAxLjAxOSwzNDkuMzY5LDMwMCwzNDkuMzY5eiIvPg0KPC9nPg0KPC9zdmc+DQo=)
+![Joi](https://img.shields.io/badge/joi-0281fe?style=for-the-badge)
+![Json Web tokens](https://img.shields.io/badge/JWT-fb005b?style=for-the-badge&logo=jsonwebtokens&logoColor=ffffff)
 
-Après presque 800 heures de formation (cours en téléprésentiel, exercices d'application des notions vues en cours, journées de pair-programming, 1 mois de spécialisation en _React.js_ pour certains ou _Data & API_ pour d'autres...), nous nous sommes attelés à notre projet de fin de formation :  
+## Routes API
 
- :rocket: __La réalisation d'une application web,__  
- :rocket: __de sa conception au déploiement d'un MVP,__  
- :rocket: __en méthodologie Agile,__  
- :rocket: __pendant 1 mois,__  
- :rocket: __en équipe.__
+|ROUTE|MÉTHODE|FONCTIONNALITÉ|AUTH. JWT|
+|----|:---------:|:---------|:---------:|
+|/login|POST|connecter un user à son compte|NON|
+||
+|/users?department=&pet_type= |GET|récupérer tous les users "petsitters" disponibles (role=petsitter & availability=true) avec filtre sur "department" (localisation) et "pet_type" (type d'animal à faire garder)|NON|
+|/users|POST|créer un nouvel utilisateur (inscription)|NON|
+|/users/:id|GET|récupérer les infos d'un user|OUI|
+|/users/:id|PUT|modifier un user|OUI|
+|/users/:id|DELETE|supprimer un user|OUI|
+||
+|/user/:id/pets|GET|récupérer tous les animaux ("pets") d'un user|OUI|
+|/user/:id/pets|POST|créer un "pet" pour un user|OUI|
+|/pets/:id|PUT|modifier un "pet"|OUI|
+|/pets/:id|DELETE|supprimer un "pet"|OUI|
+||
+|/ads|GET|récupérer les détails de l'ensemble des annonces ("ads") existantes|OUI|
+|/user/:id/ads|GET|récupérer toutes les annonces "ads" d'un user|OUI|
+|/user/:id/ads|POST|créer une "ad" pour un user|OUI|
+|/ads/:id|PUT|modifier une "ad"|OUI|
+|/ads/:id|DELETE|supprimer une "ad"|OUI|
 
-Voici plus d'informations sur les membres de notre équipe :
+## L'organisation et l'équipe
+
+Nous avons travaillé en collaboration tous les 4 sur toute la partie conception (cahier des charges, MCD et dictionnaire des données pour la BDD, routes Front/routes Back etc...). Ensuite nous nous sommes répartis le travail : 2 personnes en Back (dont moi) et 2 personnes en Front. 
+Chacun matin nous nous retrouvions tous les 4 lors d'une réunion rapide ("_daily_") pour faire le point sur l'avancée du projet, les difficultés rencontrées, le planning du jour...  
+
+__Côté Back__, nous alternions _Pair-programming_ & _code en solo_ pour avancer au mieux.  
+
+Nous nous sommes donc attelées au développement de notre API :  
+
+- _initialisation de notre BDD_ (migrations Sqitch),
+- arborescence de notre app :
+  - _architecture type MVC_ avec nos différentes routers et controllers,
+  - nos _DataMappers_,
+  - une _centralisation des erreurs_,
+- utilisation d'_ESLint_ (configuration airbnb) pour un code uniforme,
+- _sécurité_ :
+  - CORS,
+  - rate limiter,
+  - requêtes SQL préparées,
+  - validation des données en Front & Back avec Joi
+- _optimisation de nos requêtes SQL_ :
+  - données enrichies envoyées au Front pour limiter les appels API (requêtes avec jointures, aggrégations sous forme de tableaux/objets...) ,
+  - fonctions SQL avec boucle pour insérer/supprimer plusieurs lignes dans une table de liaison en une seule requête
+
+La communication a été clé, notamment entre l'équipe Back et l'équipe Front (données envoyées, leur format etc...).
+
+__Voici plus d'informations sur les membres de notre équipe :__
+
+- __SKICA Axelle__, c'est moi ! :raising_hand:
+
+```js
+  const skicaAxelle = {
+    first_name: "Axelle",
+    last_name: "Skica",
+    project_main_role: "Back-end",
+    superpowers: [
+        "traductrice officielle des commentaires de code",
+        "a appris le crochet et le tricot en autodidacte"
+        ],
+    };
+```
+
+Mon profil GitHub : [__github.com/Axelle-SKICA__](https://github.com/Axelle-SKICA)  
+Mon profil Linkedin: [__linkedin.com/in/axelle-skica__](https://www.linkedin.com/in/axelle-skica) 
 
 - __DAÏ Inès__  
   
@@ -150,54 +214,14 @@ Son profil GitHub : [__github.com/CatherineKeller__](https://github.com/Catherin
 Son profil Linkedin: [__linkedin.com/in/kellercatherine__](https://www.linkedin.com/in/kellercatherine/)  
 Son portfolio : [__catherine-keller.fr__](https://www.catherine-keller.fr) 
 
-- __SKICA Axelle__
-
-```js
-  const skicaAxelle = {
-    first_name: "Axelle",
-    last_name: "Skica",
-    project_main_role: "Back-end",
-    superpowers: [
-        "traductrice officielle des commentaires de code",
-        "a appris le crochet et le tricot en autodidacte"
-        ],
-    };
-```
-
-Son profil GitHub : [__github.com/Axelle-SKICA__](https://github.com/Axelle-SKICA)  
-Son profil Linkedin: [__linkedin.com/in/axelle-skica__](https://www.linkedin.com/in/axelle-skica) 
-
-## Routes API
-
-|ROUTE|METHODE|FONCTIONNALITE|
-|----|:---------:|:---------|
-|/login|POST|connecter un user à son compte|
-||
-|/users?department=&pet_type= |GET|récupérer tous les users "petsitters" disponibles (role=petsitter & availability=true) avec filtre sur "department" (localisation) et "pet_type" (type d'animal à faire garder)|
-|/users|POST|créer un nouvel utilisateur (inscription)|
-|/users/:id|GET|récupérer les infos d'un user|
-|/users/:id|PUT|modifier un user|
-|/users/:id|DELETE|supprimer un user|
-||
-|/user/:id/pets|GET|récupérer tous les animaux ("pets") d'un user|
-|/user/:id/pets|POST|créer un "pet" pour un user|
-|/pets/:id|PUT|modifier un "pet"|
-|/pets/:id|DELETE|supprimer un "pet"|
-||
-|/ads|GET|récupérer les détails de l'ensemble des annonces ("ads") existantes|
-|/user/:id/ads|GET|récupérer toutes les annonces "ads" d'un user|
-|/user/:id/ads|POST|créer une "ad" pour un user|
-|/ads/:id|PUT|modifier une "ad"|
-|/ads/:id|DELETE|supprimer une "ad"|
-
-## Évolutions envisagées 
-
+## Évolutions envisagées
 
 Ce projet a été initié dans le cadre de notre formation chez O'clock, et nous avions donc pour objectif de __déployer un MVP au bout de 1 mois__.  
 
 Mais nous avons également réfléchi à de __possibles évolutions__ pour notre application, que nous avons regroupées par possibles lots pour répartir la charge de travail :
 
 - V2 : 
+  - terminer CRUD des "pets"
   - Gestion des dates avec ajout des disponibilités (datepicker, du… au…)
   - Ajout de la liaison animal / annonce
   - Possibilité de télécharger une photo de profil utilisateur / animal
