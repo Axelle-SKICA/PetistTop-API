@@ -10,10 +10,15 @@ Après presque 800 heures de formation (cours en téléprésentiel, exercices d'
  :rocket: __pendant 1 mois, en équipe.__  
 
 Pour Inès Daï, Simon Honoré, Catherine Keller et moi-même, __voici notre MVP, pour lequel j'ai participé au développement de l'API__ (que vous retrouvez dans ce dépôt) :  
- :sparkles: Notre site [PetsitTop](https://projet-02-pet-sitter-front-production.up.railway.app/) ! :sparkles:
+ :sparkles: Notre site [PetsitTop](https://petsit-top.up.railway.app/) ! :sparkles:  
+ 
+La base de donnée étant actuellement peu fournie, je vous conseille de lancer une recherche de petsitter avec ces critères :  
+
+ - :compass: département : __63__ (ou __44__)
+ - :dog: type d'animal : __chien__  
 
 Documentation de l'API :  
-https://petsitterfriendly-production.up.railway.app/api-docs/
+https://petsit-top-api.up.railway.app/api-docs/ 
 
 ## Lancement
 
